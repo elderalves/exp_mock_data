@@ -1,0 +1,20 @@
+{
+  "smartphone": [
+    {
+      "id": 61,
+      "title": "Samsung Galaxy S10",
+      "description": "Samsung Galaxy S10 128GB",
+      "price": 799.99,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61n6Ovq6EdL._AC_SL1000_.jpg",
+      "category": "smartphone"
+    },
+    {
+      "id": 98,
+      "title": "Samsung Galaxy S20",
+      "description": "Samsung Galaxy S20 128GB",
+      "price": 999.99,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71cD4NUIBWL._AC_SL1500_.jpg",
+      "category": "smartphone"
+    }
+  ]
+}
