@@ -1,20 +1,259 @@
 {
-  "smartphone": [
+  "projects": [
     {
-      "id": 61,
-      "title": "Samsung Galaxy S10",
-      "description": "Samsung Galaxy S10 128GB",
-      "price": 799.99,
-      "image": "https://images-na.ssl-images-amazon.com/images/I/61n6Ovq6EdL._AC_SL1000_.jpg",
-      "category": "smartphone"
+      "id": 1,
+      "title": "Clean energy project",
+      "rates": ["Standard Rate"],
+      "energyResources": [
+        {
+          "id": 1,
+          "type": "solar",
+          "metadata": [
+            {
+              "key": "systemCapacity",
+              "value": "12kW capacity"
+            },
+            {
+              "key": "moduleType",
+              "value": "Standard module"
+            },
+            {
+              "key": "arrayType",
+              "value": "Roof mounted"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "electric-vehicle",
+          "metadata": [
+            {
+              "key": "make",
+              "value": "Chevy"
+            },
+            {
+              "key": "model",
+              "value": "Bolt"
+            },
+            {
+              "key": "year",
+              "value": "2022"
+            },
+            {
+              "key": "chargingPower",
+              "value": "Level 2 charger"
+            }
+          ]
+        }
+      ],
+      "savingsPerYear": 240,
+      "savingsPerMonth": 40
+    }
+  ],
+  "resource": [
+    {
+      "id": 1,
+      "type": "solar",
+      "metadata": [
+        {
+          "key": "systemCapacity",
+          "value": "12kW capacity"
+        },
+        {
+          "key": "moduleType",
+          "value": "Standard module"
+        },
+        {
+          "key": "arrayType",
+          "value": "Roof mounted"
+        }
+      ],
+      "metrics": [
+        {
+          "id": 1,
+          "period": "annual",
+          "data": [
+            {
+              "label": "January",
+              "usage": 50,
+              "solarGeneration": -50,
+              "netUsage": 100
+            },
+            {
+              "label": "February",
+              "usage": 75,
+              "solarGeneration": -45,
+              "netUsage": 100
+            },
+            {
+              "label": "March",
+              "usage": 90,
+              "solarGeneration": -35,
+              "netUsage": 100
+            },
+            {
+              "label": "April",
+              "usage": 100,
+              "solarGeneration": -33,
+              "netUsage": 100
+            },
+            {
+              "label": "May",
+              "usage": 95,
+              "solarGeneration": -43,
+              "netUsage": 100
+            },
+            {
+              "label": "June",
+              "usage": 80,
+              "solarGeneration": -60,
+              "netUsage": 100
+            },
+            {
+              "label": "July",
+              "usage": 80,
+              "solarGeneration": -60,
+              "netUsage": 100
+            },
+            {
+              "label": "August",
+              "usage": 80,
+              "solarGeneration": -60,
+              "netUsage": 100
+            },
+            {
+              "label": "September",
+              "usage": 80,
+              "solarGeneration": -60,
+              "netUsage": 100
+            },
+            {
+              "label": "October",
+              "usage": 80,
+              "solarGeneration": -60,
+              "netUsage": 100
+            },
+            {
+              "label": "November",
+              "usage": 80,
+              "solarGeneration": -60,
+              "netUsage": 100
+            },
+            {
+              "label": "December",
+              "usage": 80,
+              "solarGeneration": -60,
+              "netUsage": 100
+            }
+          ]
+        },
+        {
+          "period": "daily",
+          "data": []
+        }
+      ]
     },
     {
-      "id": 98,
-      "title": "Samsung Galaxy S20",
-      "description": "Samsung Galaxy S20 128GB",
-      "price": 999.99,
-      "image": "https://images-na.ssl-images-amazon.com/images/I/71cD4NUIBWL._AC_SL1500_.jpg",
-      "category": "smartphone"
+      "id": 2,
+      "type": "electric-vehicle",
+      "metadata": [
+        {
+          "key": "systemCapacity",
+          "value": "12kW capacity"
+        },
+        {
+          "key": "moduleType",
+          "value": "Standard module"
+        },
+        {
+          "key": "arrayType",
+          "value": "Roof mounted"
+        }
+      ],
+      "metrics": [
+        {
+          "id": 1,
+          "period": "annual",
+          "data": [
+            {
+              "label": "January",
+              "usage": 50,
+              "solarGeneration": -50,
+              "netUsage": 100
+            },
+            {
+              "label": "February",
+              "usage": 75,
+              "solarGeneration": -45,
+              "netUsage": 100
+            },
+            {
+              "label": "March",
+              "usage": 90,
+              "solarGeneration": -35,
+              "netUsage": 100
+            },
+            {
+              "label": "April",
+              "usage": 100,
+              "solarGeneration": -33,
+              "netUsage": 100
+            },
+            {
+              "label": "May",
+              "usage": 95,
+              "solarGeneration": -43,
+              "netUsage": 100
+            },
+            {
+              "label": "June",
+              "usage": 80,
+              "solarGeneration": -60,
+              "netUsage": 100
+            },
+            {
+              "label": "July",
+              "usage": 80,
+              "solarGeneration": -60,
+              "netUsage": 100
+            },
+            {
+              "label": "August",
+              "usage": 80,
+              "solarGeneration": -60,
+              "netUsage": 100
+            },
+            {
+              "label": "September",
+              "usage": 80,
+              "solarGeneration": -60,
+              "netUsage": 100
+            },
+            {
+              "label": "October",
+              "usage": 80,
+              "solarGeneration": -60,
+              "netUsage": 100
+            },
+            {
+              "label": "November",
+              "usage": 80,
+              "solarGeneration": -60,
+              "netUsage": 100
+            },
+            {
+              "label": "December",
+              "usage": 80,
+              "solarGeneration": -60,
+              "netUsage": 100
+            }
+          ]
+        },
+        {
+          "period": "daily",
+          "data": []
+        }
+      ]
     }
   ]
 }
