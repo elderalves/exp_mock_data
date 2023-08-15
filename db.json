@@ -255,5 +255,464 @@
         }
       ]
     }
+  ],
+  "costs": [
+    {
+      "id": 1,
+      "metrics": [
+        {
+          "id": 1,
+          "period": "cost",
+          "rates": {
+            "current": ["Standard Rate"],
+            "project": ["Standard Rate", "Solar Panels", "Electric Vehicle"]
+          },
+          "data": [
+            {
+              "label": "January",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "February",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "March",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "April",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "May",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "June",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "July",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "August",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "September",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "October",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "November",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "December",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "period": "usage",
+          "rates": {
+            "current": ["Standard Rate"],
+            "project": ["Standard Rate", "Solar Panels", "Electric Vehicle"]
+          },
+          "data": [
+            {
+              "label": "January",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "February",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "March",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "April",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "May",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "June",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "July",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "August",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "September",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "October",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "November",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            },
+            {
+              "label": "December",
+              "chart": {
+                "current": 50,
+                "electric": 50,
+                "gas": 50,
+                "autoFuel": 50
+              },
+              "table": {
+                "current": {
+                  "energyCost": 100
+                },
+                "project": {
+                  "savings": 20,
+                  "energyCost": 80
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
