@@ -5,15 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "json-serve": "^0.1.0",
-    "json-server": "^0.17.3",
-    "release": "release-it"
+    "json-server": "^0.17.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
